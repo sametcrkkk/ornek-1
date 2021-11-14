@@ -6,6 +6,9 @@ public class Kisi {
     private String soyad;
     private double maas;
 
+    //consructer overloading
+    //obje oluştururken
+
     public Kisi() {
     }
 

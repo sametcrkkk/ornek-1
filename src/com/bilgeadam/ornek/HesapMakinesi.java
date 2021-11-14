@@ -7,6 +7,11 @@ public class HesapMakinesi {
         return sayi1 + sayi2;
     }
 
+    public double topla(double sayi1, double sayi2) {
+        return sayi1 + sayi2;
+    }
+    
+
     public int carp(int sayi1, int sayi2) {
         return sayi1 * sayi2;
     }
@@ -27,7 +32,7 @@ public class HesapMakinesi {
         System.out.println(hm.bol(7, 2));
         System.out.println(hm.cikar(15, 7));
 
-        int sonuc = hm.topla(9,14);
+        int sonuc = hm.topla(9, 14);
 
         System.out.println("Sonuç:" + sonuc);
 

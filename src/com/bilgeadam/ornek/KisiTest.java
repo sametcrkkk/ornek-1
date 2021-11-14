@@ -6,6 +6,5 @@ public class KisiTest {
         Kisi kisi = new Kisi(1, "Cahit", "Arf", 5000);
         System.out.println(kisi);
 
-
     }
 }

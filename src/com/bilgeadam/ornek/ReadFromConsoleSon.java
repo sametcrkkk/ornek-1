@@ -5,8 +5,7 @@ import java.util.Scanner;
 
 public class ReadFromConsoleSon {
 
-    String isim;
-    int yas;
+
     static String isim;
     static int yas;
 
@@ -24,11 +23,7 @@ public class ReadFromConsoleSon {
 
     public int yasSor()
     {
-        int localYas = 0;
-        System.out.println("Yaşınızı giriniz:");
-        localYas = sc.nextInt();
 
-        return localYas;
         try {
             int localYas = 0;
             System.out.print("Yaşınızı giriniz:");
